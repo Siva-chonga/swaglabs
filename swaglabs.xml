@@ -1,0 +1,15 @@
+
+<suite name="Suite1" verbose="1">
+  <test name="Nopackage">
+    <classes>
+      <class name="com.swaglabs.testscripts.TC001"/>
+      <class name="com.swaglabs.testscripts.TC002"/>
+      <class name="com.swaglabs.testscripts.TC003"/>
+      <class name="com.swaglabs.testscripts.TC004"/>
+      <class name="com.swaglabs.testscripts.TC005"/>
+      <class name="com.swaglabs.testscripts.TC006"/>
+      <class name="com.swaglabs.testscripts.TC007"/>
+      <class name="com.swaglabs.testscripts.TC008"/>
+    </classes>
+  </test>
+ </suite>
