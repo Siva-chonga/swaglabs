@@ -1,75 +1,57 @@
+ # **SWAGLABS E-Commerce Automation Testing**  
+### **Automated Testing Framework using Selenium WebDriver, Java & TestNG**  
 
-# **Automated Testing Strategy for E-Commerce Applications using Selenium WebDriver, Java, and TestNG**  
+## 📌 **Overview**  
+This project is a **comprehensive automation testing framework** developed for **SWAGLABS E-Commerce platform**, ensuring **functional accuracy, security, and performance optimization**. The framework is built using **Selenium WebDriver, Java, TestNG**, and follows modular test automation principles for **scalability and reliability**.  
 
-## **🔍 Objective**  
-Automation testing ensures **reliability, efficiency, and security** in E-Commerce platforms, optimizing user experience, reducing defects, and accelerating software release cycles. This framework leverages **Selenium WebDriver**, **Java**, and **TestNG** to streamline test execution and enhance software quality.
+## 🔍 **Key Features**  
+- **Automated Test Suite covering critical user scenarios** (Login, Product Search, Cart, Checkout, Payment).  
+- **Data-driven testing approach using TestNG parameters and XML configurations.**  
+- **Cross-browser compatibility validation on Chrome, Firefox, Edge, and Safari.**  
+- **Parallel test execution for optimized efficiency using TestNG.**  
+- **Detailed test reports and logging with Extent Reports integration.**  
+- **Integration with API Testing using RestAssured for backend validation.**  
+- **Performance and Load Testing using JMeter.**  
 
----
-
-## ✅ **Core Testing Modules & Automation Scenarios**  
-
-### **1️⃣ User Authentication & Security Testing**  
-- **Login & Registration Automation** – Validate user authentication flows.  
-- **Session Management Testing** – Ensure proper session expiration, logout functionality.  
-- **Security Vulnerability Testing** – Prevent SQL Injection, XSS attacks, and unauthorized access.  
-
-### **2️⃣ Product Catalog & Inventory Management**  
-- **Automate product search, filtering, and sorting validation**.  
-- **Stock availability updates & inventory synchronization testing**.  
-- **Dynamic price changes and discount application verification**.  
-
-### **3️⃣ Shopping Cart & Checkout Process**  
-- **Validate cart operations** (adding, removing, updating items).  
-- **Automate promo code and discount application testing**.  
-- **Ensure proper order placement across multiple payment gateways**.  
-
-### **4️⃣ Payment Gateway Integration & Transaction Security**  
-- **Automate card payments, digital wallets, and UPI transactions**.  
-- **Simulate failed transactions and refund workflows**.  
-- **Validate secure data encryption and PCI-DSS compliance**.  
-
-### **5️⃣ Order Management & Logistics**  
-- **Test order confirmation, invoice generation, and notifications**.  
-- **Automate cancellation, return, and refund workflows**.  
-- **Verify real-time order tracking and shipping updates integration**.  
-
-### **6️⃣ UI/UX & Cross-Browser Compatibility**  
-- **Validate UI elements across Chrome, Firefox, Edge, Safari**.  
-- **Ensure mobile responsiveness using Selenium Grid**.  
-- **Implement accessibility testing for ADA & WCAG compliance**.  
-
-### **7️⃣ Performance & Load Testing**  
-- **Execute high traffic simulations using TestNG parallel execution**.  
-- **Analyze server response times and scalability under peak conditions**.  
-- **Optimize frontend performance by validating page load times**.  
-
-### **8️⃣ API & Integration Testing**  
-- **Automate API validation using RestAssured (Java)**.  
-- **Ensure data integrity between frontend and backend systems**.  
-- **Implement security testing against API vulnerabilities**.  
-
----
-
-## 🔧 **Technology Stack & Tools Used**  
-- **Selenium WebDriver** – UI automation testing.  
-- **Java** – Core programming language for automation scripts.  
+## 🚀 **Technology Stack**  
+- **Selenium WebDriver** – UI Automation.  
+- **Java** – Core automation scripting language.  
 - **TestNG** – Test execution framework with parallel execution support.  
 - **RestAssured** – API automation testing.  
-- **Extent Reports** – Customized test reporting.  
-- **JMeter** – Performance and load testing.  
-- **Appium** – Mobile testing integration for E-Commerce apps.  
+- **Extent Reports** – Detailed reporting for test execution.  
+- **JMeter** – Performance testing and load simulation.  
 
----
+## 📂 **Project Structure**  
+```
+├── src/test/java/com/swaglabs/tests
+│   ├── LoginTest.java
+│   ├── ProductSearchTest.java
+│   ├── CartTest.java
+│   ├── CheckoutTest.java
+│   ├── PaymentTest.java
+│   ├── OrderManagementTest.java
+│   ├── APIValidationTest.java
+│   ├── PerformanceTest.java
+│   
+├── src/main/java/com/swaglabs/pages
+│   ├── LoginPage.java
+│   ├── ProductPage.java
+│   ├── CartPage.java
+│   ├── CheckoutPage.java
+│   ├── PaymentPage.java
+│   ├── OrderPage.java
+│   
+├── testng.xml  
+├── pom.xml  
+├── README.md  
+```
 
-## 🚀 **Enhancing Automation Testing Strategy for E-Commerce**  
-✔ Implement **AI-driven test case generation**.  
-✔ Automate **voice search and chatbot interactions** testing.  
-✔ Optimize compatibility testing with **global payment gateways**.  
-✔ Validate **loyalty programs, personalized recommendations, and customer rewards**.  
+## 📊 **Test Execution & Reporting**  
+All test cases can be executed using **TestNG.xml**, enabling **parallel execution and reporting** with **Extent Reports**.  
+```  
 
----
+## 🎯 **Conclusion**  
+This automation framework ensures **scalability, efficiency, and reliability** in testing SWAGLABS E-Commerce functionalities. 
 
-### 🎯 **Conclusion**  
-A well-designed automation framework using **Selenium WebDriver, Java, and TestNG** enhances **efficiency, accuracy, and scalability** in E-Commerce platforms. By implementing **continuous integration and test automation**, businesses can achieve **faster deployments, reduced defects, and improved customer satisfaction**.  
- 
+
 
