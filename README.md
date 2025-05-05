@@ -1,4 +1,4 @@
- # **SWAGLABS E-Commerce Automation Testing**  
+# **SWAGLABS E-Commerce Automation Testing**  
 ### **Automated Testing Framework using Selenium WebDriver, Java & TestNG**  
 
 ## 📌 **Overview**  
@@ -47,11 +47,16 @@ This project is a **comprehensive automation testing framework** developed for *
 ```
 
 ## 📊 **Test Execution & Reporting**  
-All test cases can be executed using **TestNG.xml**, enabling **parallel execution and reporting** with **Extent Reports**.  
-```  
+All test cases can be executed using **TestNG.xml**, enabling **parallel execution and reporting** with **Extent Reports**.   
 
 ## 🎯 **Conclusion**  
 This automation framework ensures **scalability, efficiency, and reliability** in testing SWAGLABS E-Commerce functionalities. 
+
+
+
+
+
+
 
 
 
